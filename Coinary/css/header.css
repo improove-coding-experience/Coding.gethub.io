@@ -1,0 +1,11 @@
+.header-menu li a {
+    list-style: none;
+    color: none;
+    display: inline-block;
+    padding: 0px 15px;
+
+
+}
+.header {
+    padding-top: 30px;
+}

@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="/images/title.JPG">
+  <!-- <link rel="stylesheet" href="/css/style.css"> -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <section class="header position-relative">
+    <div class="container-fluid">
+      <div class="header-inner">
+        <div class="logo">
+          <a href="#">
+            <img class="logo-img" src="./images/Logo-Coinary.png" alt="logo">
+          </a>
+        </div>
+        <div class="header-nav">
+          <div class="menu_items ">
+            <input type="checkbox" class=" d-lg-none hamburger-close ">
+            <div class="hamburger d-lg-none">
+              <span class="hamburger-line"></span>
+              <span class="hamburger-line"></span>
+              <span class="hamburger-line"></span>
+            </div>
+            <div class="menu_items_inner">
+              <ul class="header-menu">
+                <li><a class="active" href="./index.html">Homepage</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Our App</a></li>
+                <li><a href="#" class="d-flex align-items-center">Pages<i class="fa fa-angle-down arrow"
+                      aria-hidden="true"></i></a>
+
+                  <ul class="inner-header-menu">
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Career Overview</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">FAQS</a></li>
+                    <li><a href="#">Contact Us</a></li>
+
+                  </ul>
+                </li>
+                <li><a href="#">Token Sale</a></li>
+              </ul>
+              <div class="header-right">
+                <!-- <button>Download App</button> -->
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Download App
+                </button>
+              </div>
+
+
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">hi title</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center text-bg-danger">
+                      Welcome to Coinary
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about-us-sec">
+      <!-- <div class="about-wrap-box">
+        <h2>About Us</h2>
+        <span></span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+    </div> -->
+
+
+    <div class="content">
+        <div class="about-wrap-box">
+          <h2>About Us</h2>
+          <span></span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+      </div>
+      </div>
+        
+      <div class="wrapper">
+          <div class="triangle-down"><div></div></div>
+      </div>
+
+
+
+
+  </section>
+  <section class="about-sec position-relative">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="about-sec-left text-md-start text-center">
+            <h3>ABOUT US</h3>
+            <h2 class="about-sec-title">Accelerate the <br class="about-left-br"> world’s transition</h2>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="about-sec-right">
+            <p class="p-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+              ullamcorper mattis,
+              pulvinar dapibus leo.</p>
+            <div class="get-started more-about-us">
+              <button>More About Us</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="fortune-wrap">
+          <div class="col-12">
+            <div class="fortune-wrap-img">
+              <h2>Fortune favours the brave</h2>
+              <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <!-- <img src="./images/play1.png" class="play-png" alt=""> -->
+                <i class="fa fa-play-circle play-png play-btn" aria-hidden="true"></i>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="fiat-cover">
+            <span>
+              <i class="fa fa-money" aria-hidden="true"></i>
+              <!-- #202020 -->
+            </span>
+            <h3>
+              Fiat & Crypto Payments
+            </h3>
+            <p class="p-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="fiat-cover">
+            <span>
+              <i class="fa fa-bar-chart" aria-hidden="true"></i>
+              <!-- #202020 -->
+            </span>
+            <h3>
+              Customizable Flows
+            </h3>
+            <p class="p-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="fiat-cover">
+            <span>
+              <i class="fa fa-paper-plane" aria-hidden="true"></i>
+            </span>
+            <h3>
+              Scalable Profits
+            </h3>
+            <p class="p-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="choose-sec position-relative">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 text-center">
+          <span class="background-color choose-sec-bg"></span>
+          <div class="why-choose">
+            <h3>WHY CHOOSE US</h3>
+            <h2>Safe, guaranteed, <br> and easy to use</h2>
+            <p class="p-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+              ullamcorper mattis,
+              pulvinar dapibus leo.</p>
+            <div class="get-started">
+              <button>Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="safe secure text-center secure-sec-right">
+                <span>
+                  <img src="./images/secure.png" alt="">
+                </span>
+                <h2>Safe and <br class="secure-break"> secure</h2>
+                <p class="p-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="safe invest text-center secure-sec-right">
+                <span>
+                  <img src="./images/investment.png" alt="investment">
+                </span>
+                <h2>Good investment</h2>
+                <p class="p-title">Cum sociis natoque penatibus et magnis dis parturient mon.</p>
+              </div>
+            </div>
+          </div>
+          <div class="choose-sec-safe-investment">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="safe secure text-center secure-sec-right">
+                  <span>
+                    <img src="./images/secure.png" alt="">
+                  </span>
+                  <h2>Safe and <br class="secure-break"> secure</h2>
+                  <p class="p-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="safe invest text-center secure-sec-right">
+                  <span>
+                    <img src="./images/investment.png" alt="investment">
+                  </span>
+                  <h2>Good investment</h2>
+                  <p class="p-title">Cum sociis natoque penatibus et magnis dis parturient mon.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="guide position-relative">
+    <div class="container">
+      <div class="guide-title text-center">
+        <div class="why-choose text-center">
+          <h3>STEP BY STEP GUIDE</h3>
+          <h2>Easy Steps to Success</h2>
+          <p class="p-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+            ullamcorper mattis, pulvinar dapibus leonatoque penatibu.</p>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-lg-12">
+            <div class="safe wallet secure text-center ">
+              <span>
+                <i class="fa fa-credit-card" aria-hidden="true"></i>
+              </span>
+              <h2 class="guide-sec-title create-wallet">Create Wallet</h2>
+              <p class="p-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <a href="#" class="header-center-tutorial">
+                Learn More <span>
+                  <i class="fa fa-angle-right learn-icon" aria-hidden="true"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-12">
+            <div class="safe wallet secure text-center ">
+              <span>
+                <i class="fa fa-money" aria-hidden="true"></i>
+              </span>
+              <h2 class="guide-sec-title">Make Payment</h2>
+              <p class="p-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <a href="#" class="header-center-tutorial">
+                Learn More <span>
+                  <i class="fa fa-angle-right learn-icon" aria-hidden="true"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-12">
+            <div class="safe wallet secure text-center ">
+              <span>
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              </span>
+              <h2 class="guide-sec-title">Buy and or Sell</h2>
+              <span class="background-color guide-sec-bg"></span>
+              <p class="p-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <a href="#" class="header-center-tutorial">
+                Learn More <span>
+                  <i class="fa fa-angle-right learn-icon" aria-hidden="true"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="vision-sec">
+    <div class="container">
+      <div class="row vision-sec-cover-box">
+        <div class="col-lg-6 col-12">
+          <div class="vision-left">
+            <img src="./images/vision.png" alt="vision-img">
+          </div>
+        </div>
+        <div class="col-lg-6 col-12">
+          <div class="vision-sec-cover">
+            <h3>OUR VISION</h3>
+            <h2 class="vision-sec-cover-world">Users from all over the world</h2>
+            <p class="p-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+              ullamcorper mattis, pulvinar dapibus leonatoque penatibu.</p>
+            <div class="user-active-wrap-main">
+              <div class="user-active-wrap">
+
+                <div class="vision-sec-join-user-companies">
+                  <span>32K</span>
+                  <p>People Joined</p>
+                </div>
+                <div class="vision-sec-join-user-companies d-lg-block d-none">
+                  <span>32K</span>
+                  <p>People Joined</p>
+                </div>
+                <div class="vision-sec-join-user-companies">
+                  <span>32K</span>
+                  <p>People Joined</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="feature-sec">
+    <div class="container">
+      <div class="feature-sec-wrap">
+        <div class="feature-sec-title">
+          <h6 class="text-center">OUR FEATURES</h6>
+          <h2 class="text-center">All you need is here</h2>
+          <p class="text-center p-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
+            nec ullamcorper mattis, pulvinar dapibus leonatoque penatibu.</p>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-4 col-12">
+            <div class="feature-sec-detail OUR-FEATURES-box d-flex">
+              <div class="feature-sec-free-trial-box">
+                <h3>Free Trial Account</h3>
+                <p class="p-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+              <div class="feature-sec-icon">
+                <i class="fa fa-user icon-1" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="feature-sec-detail OUR-FEATURES-box d-flex">
+              <div>
+                <h3>Affordable Plans</h3>
+                <p class="p-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+              <div class="feature-sec-icon">
+                <i class="fa fa-user icon-2" aria-hidden="true"></i>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-4 col-12">
+            <div class="feature-sec-detail d-flex position-relative">
+              <span class="background-color choose-sec-bg"></span>
+              <img src="./images/bidcoin.png" alt="">
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-12">
+            <div class="feature-sec-detail OUR-FEATURES-box d-flex text-start">
+              <div class="feature-sec-icon">
+                <i class="fa fa-user icon-3" aria-hidden="true"></i>
+              </div>
+              <div>
+                <h3>Guided By Experts</h3>
+                <p class="p-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="feature-sec-detail OUR-FEATURES-box d-flex text-start">
+              <div class="feature-sec-icon">
+                <i class="fa fa-user icon-4" aria-hidden="true"></i>
+              </div>
+              <div>
+                <h3>24/7 Live Support</h3>
+                <p class="p-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  </section>
+  <section class="CRYPTO-EXCHANGE-SEC">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-12">
+          <div class="CRYPTO-EXCHANGE-SEC-LEFT">
+            <h4>CRYPTO EXCHANGE</h4>
+            <h2>Low fees and deep liquidity</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Enim ad minim veniam, quis nostrud.</p>
+            <div class="get-started">
+              <button>Go To Exchanges</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-12">
+          <div class="CRYPTO-IMG">
+            <img src="../Coinary/images/CRYPTO.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="PROFITABLE-BLOCKCHAIN-SEC">
+   <div class="container">
+    <div class="row PROFITABLE-BLOCKCHAIN-SEC-WRAP align-items-center">
+      <div class="col-lg-6 col-12">
+        <div class="PROFITABLE-BLOCKCHAIN-SEC-left">
+          <img src="../Coinary/images/PROFITABLE-BLOCKCHAIN-IMG.png" alt="">
+        </div>
+      </div>
+      <div class="col-lg-6 col-12">
+        <div class="block-chain-sec-wrap-box">
+          <div class="PROFITABLE-BLOCKCHAIN-SEC-right position-relative">
+            <span class="background-color choose-sec-bg"></span>
+            <h4>PROFITABLE BLOCKCHAIN</h4>
+            <h2>Trusted Platform</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud.</p>   
+          </div>
+          <div class="Transaction-Total-left-wrap">
+            <div class="Transaction-Total-left">
+              <span>100K+</span>
+               <h5>Transaction Success</h5>
+            </div>
+            <div class="Transaction-Total-right">
+              <span>250+</span>
+               <h5>Total Global Node</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+   </div>
+  </section>
+  <section class="start-now-sec">
+    <div class="container start-now-sec-wrap">
+      <div class="row align-items-start">
+        <div class="col-lg-6 col-12">
+          <div class="start-now-sec-left">
+            <h4>START NOW</h4>
+            <h2>Sign up to learn more</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorp.</p>
+            <div class="get-started">
+              <button>Request A Demo</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-12">
+          <div class="portal-img-wrap">
+            <img src="../Coinary/images/Crypto-Portal.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+   <div class="container">
+    <div class="footer-cover">
+      <div class="row">
+        <div class="col-lg-3 col-12 p-0">
+          <div class="footer1">
+            <img src="./images/Logo-Coinary.png" alt="logo">
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
+          </div>
+  
+          <div class="footer-icon">
+            <ul>
+              <li><a href="#">  <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12">
+          <div class="footer2">
+          <h2>Our Products</h2>
+          <h3>Crypto Earn</h3>
+          <h3>Exchanges</h3>
+          <h3>DeFi Wallet</h3>
+          <h3>Converter</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-12">
+          <div class="footer3">
+            <h2>Pages</h2>
+            <h3>About Us</h3>
+            <h3>Our App</h3>
+            <h3>Careers</h3>
+            <h3>Token Sale</h3>
+            </div>
+        </div>
+        <div class="col-lg-3 col-12">
+          <div class="footer4">
+            <h2>Contact</h2>
+          <span class="d-flex footer-sec-icon">
+            <i class="fa fa-phone rotage-icon" aria-hidden="true"></i>
+            <h3>(205) 555-0100</h3>
+          </span>
+          <span class="d-flex footer-sec-icon">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            <h3>Mon - Fri : 9 am - 11 pm</h3>
+          </span>
+          <span class="d-flex footer-sec-icon">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <h3>email@coinary.com</h3>
+          </span>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="row">
+      <div class="col-lg-8 col-12">
+        <div class="footer-copy-right">
+          <p>Copyright © 2022 Coinary</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12 d-lg-block d-none">
+        <div class="footer-policy">
+          <p>Help & Support  <span>|</span> Privacy Policy</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/22f406f51f.js" crossorigin="anonymous"></script>
+</body>
+<!-- <script src="./js/popup.js"></script>  -->
+
+</html>
